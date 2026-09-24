@@ -1,7 +1,8 @@
 game_services = [
     {"name": "Login Service", "status": "online"},
     {"name": "Realm Server", "status": "online"},
-    {"name": "Auction House", "status": "offline"}
+    {"name": "Auction House", "status": "offline"},
+    {"name": "In-game Mail", "status": "online"}
 ]
 
 
