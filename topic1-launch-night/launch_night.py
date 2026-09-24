@@ -10,6 +10,8 @@ def display_services(services):
     """Display the name and status of every game service."""
     for service in services:
         print(f"{service['name']}: {service['status']}")
+        if service['status'] == "offline":
+            print("    WARNING: This service is unavailable")
 
 
 def count_offline_services(services):
