@@ -202,7 +202,7 @@ Open this `README.md` file and replace the line below with one or two sentences 
 
 ### Why is Git distributed?
 
-Write your answer here.
+Multiple users can work in separate branches, each working on different parts of a system, and then all merging back together to create a product that is then kept on the cloud. It does not rely on local storage, and any team member can access each module and make changes when needed.
 
 Save the README, then run:
 
