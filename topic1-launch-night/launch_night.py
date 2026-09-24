@@ -14,8 +14,13 @@ def display_services(services):
 
 def count_offline_services(services):
     """Count and return the number of offline services."""
-    # TODO: Replace the line below by following Stage 6 in README.md.
-    return 0
+    offline_count = 0
+
+    for service in services:
+        if service["status"] == "offline":
+            offline_count += 1
+
+    return offline_count
 
 
 print("LAUNCH NIGHT SERVICE MONITOR")
